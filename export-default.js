@@ -1,3 +1,3 @@
 import exportDefaultResult from './export-default-chunk.js'
 
-document.getElementById('app').insertAdjacentElement('afterbegin', '<p>${exportDefaultResult}</p>')
+document.getElementById('app').insertAdjacentHTML('beforeend', `<p>${exportDefaultResult}</p>`)
