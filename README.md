@@ -1,4 +1,4 @@
-# esm-webview-export-test
+# ESM Webview export test
 
 Test for a `default export` and `export * as nameSpace`
 
